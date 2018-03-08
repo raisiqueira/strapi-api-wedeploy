@@ -1,0 +1,9 @@
+{
+  "id": "db",
+  "image": "mongo",
+  "volume": "/data/db",
+  "env": {
+    "MONGO_INITDB_DATABASE": "strapi"
+  },
+  "zeroDowntime": true
+}
